@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dblib", "dblib\dblib.vcproj", "{7E41281B-C89B-42E9-AF87-9D5D40EBBD51}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_dblib", "test_dblib\test_dblib.vcproj", "{E1ED871E-BDC6-40DD-9858-480A07AE8CA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E41281B-C89B-42E9-AF87-9D5D40EBBD51} = {7E41281B-C89B-42E9-AF87-9D5D40EBBD51}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7E41281B-C89B-42E9-AF87-9D5D40EBBD51}.Debug.ActiveCfg = Debug|Win32
+		{7E41281B-C89B-42E9-AF87-9D5D40EBBD51}.Debug.Build.0 = Debug|Win32
+		{7E41281B-C89B-42E9-AF87-9D5D40EBBD51}.Release.ActiveCfg = Release|Win32
+		{7E41281B-C89B-42E9-AF87-9D5D40EBBD51}.Release.Build.0 = Release|Win32
+		{E1ED871E-BDC6-40DD-9858-480A07AE8CA0}.Debug.ActiveCfg = Debug|Win32
+		{E1ED871E-BDC6-40DD-9858-480A07AE8CA0}.Debug.Build.0 = Debug|Win32
+		{E1ED871E-BDC6-40DD-9858-480A07AE8CA0}.Release.ActiveCfg = Release|Win32
+		{E1ED871E-BDC6-40DD-9858-480A07AE8CA0}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

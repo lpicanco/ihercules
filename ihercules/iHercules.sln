@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dbfilelib", "dbfilelib\dbfilelib.vcproj", "{D685F7D9-1FFE-4715-9AD5-D297A1008457}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_dbfilelib", "test_dbfilelib\test_dbfilelib.vcproj", "{479A80D9-1A03-462A-8E47-D768C9B9C594}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Static = Debug Static
+		Release = Release
+		Release Static = Release Static
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Debug.ActiveCfg = Debug|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Debug.Build.0 = Debug|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Debug Static.ActiveCfg = Debug|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Debug Static.Build.0 = Debug|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Release.ActiveCfg = Release|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Release.Build.0 = Release|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Release Static.ActiveCfg = Release|Win32
+		{D685F7D9-1FFE-4715-9AD5-D297A1008457}.Release Static.Build.0 = Release|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Debug.ActiveCfg = Debug|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Debug.Build.0 = Debug|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Debug Static.ActiveCfg = Debug|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Debug Static.Build.0 = Debug|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Release.ActiveCfg = Release|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Release.Build.0 = Release|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Release Static.ActiveCfg = Release|Win32
+		{479A80D9-1A03-462A-8E47-D768C9B9C594}.Release Static.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
